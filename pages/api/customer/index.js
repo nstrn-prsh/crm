@@ -4,7 +4,7 @@ import connectDB from "../../../utils/connectDB";
 export default async function handler(req, res) {
    //  try catch baraye etesal be data base
    try {
-      await connectDB();
+      6
    } catch (err) {
       console.log(err, "----------------------/api/customer");
       res.status(500).json({
